@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DressBusiness.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8970f02fb2187d763672fa8054585352f5d507d1")]
 [assembly: System.Reflection.AssemblyProductAttribute("DressBusiness.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DressBusiness.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
