@@ -1,0 +1,148 @@
+:host {
+  display: block;
+  min-height: 100vh;
+  background: #f7f4ef;
+  color: #28231f;
+  font-family: Arial, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 24px 16px 48px;
+}
+
+.hero {
+  background: #412c35;
+  color: #fffaf5;
+  padding: 32px;
+  border-radius: 18px;
+  margin-bottom: 20px;
+}
+
+.hero h1 {
+  margin: 8px 0;
+  font-size: clamp(28px, 5vw, 40px);
+}
+
+.eyebrow {
+  letter-spacing: 2px;
+  font-size: 12px;
+}
+
+.panel {
+  background: white;
+  border: 1px solid #e7dfd7;
+  border-radius: 16px;
+  padding: 24px;
+  margin: 18px 0;
+}
+
+h2 {
+  font-size: 20px;
+  margin-top: 0;
+}
+
+form {
+  display: grid;
+  gap: 16px;
+}
+
+label {
+  display: grid;
+  gap: 7px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #cfc5bc;
+  border-radius: 8px;
+  background: white;
+  font: inherit;
+}
+
+textarea {
+  min-height: 90px;
+  resize: vertical;
+}
+
+button {
+  padding: 12px 18px;
+  border: 0;
+  border-radius: 8px;
+  background: #7b3f54;
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+button:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+
+button.secondary {
+  background: #eee5df;
+  color: #412c35;
+}
+
+.message {
+  padding: 12px;
+  border-radius: 8px;
+  background: #fff;
+  overflow-wrap: anywhere;
+}
+
+.hint {
+  color: #6a514d;
+  font-size: 14px;
+  margin: 0;
+}
+
+.section-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.order-list {
+  border-top: 1px solid #e7dfd7;
+  padding: 16px 0;
+  overflow-wrap: anywhere;
+}
+
+.status {
+  background: #f1e4eb;
+  color: #6e3349;
+  border-radius: 20px;
+  padding: 6px 10px;
+  font-size: 12px;
+}
+
+.money {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 10px;
+  font-size: 14px;
+}
+
+@media (max-width: 520px) {
+  .hero,
+  .panel {
+    padding: 18px;
+  }
+
+  .section-heading {
+    align-items: flex-start;
+  }
+}
